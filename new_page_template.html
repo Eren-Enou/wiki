@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="flex-container">
+                <li class="flex-item"><button onclick="toggleSidebar()"><img src="images/Yin_and_Yang_symbol.svg.png" alt="Logo Image" class="logo"></button></li>
+                <li class="flex-item title">Relara<br><em class="subtitle">Grasp Immortality</em></li>
+                <li class="flex-item">
+                    <form action="/search">
+                    <label for="search">Search:</label>
+                    <input type="text" id="search" name="q">
+                    <button type="submit">Search</button>
+                    </form>
+                </li>
+                <li class="flex-item">Log In</li>
+                <li class="flex-item">Sign Up</li>
+
+            </ul>
+            
+        </nav>
+    </header>
+    <div id="sidebar">
+        <div>
+            <ul>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Things</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
