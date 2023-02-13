@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- button should check if sidebar is open, then open or close depending -->
+            <button onclick="toggleSidebar()"><img src="images/Yin_and_Yang_symbol.svg.png" alt="Logo Image" class="logo" width="50px"></button>
+            <h2>Relara</h2>
+            <form action="/search">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    <div id="sidebar">
+        <div>
+            <ul>
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 2</a></li>
+                <li><a href="#">link 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h1 id="home">Home</h1>
+        <div>
+            <article>
+                <h2 class="article-title">Welcome the the Relara Wiki!</h2>
+                <h3>Read the introduction</h3>
+                <img src="images/Wu_Xing.jpg" alt="Cultivation">
+            </article>
+        </div>
+    </div>
+</body>
+</html>
